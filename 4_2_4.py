@@ -18,6 +18,16 @@ for index in range(1, length):
         ans[j] = ans[j-1]
         j -= 1
     ans[j] = x
+    
+#Selection sort
+#length = len(ans)
+#
+#for index in range(0, length):
+#    j = index
+#    for index2 in range(index + 1, length):
+#        if ((d[ans[index2]])[0] < (d[ans[j]])[0] or ((d[ans[index2]])[0] == (d[ans[j]])[0] and (d[ans[index2]])[1] < (d[ans[j]])[1])):
+#            j = index2
+#    ans[index], ans[j] = ans[j], ans[index]
 
 for rec in ans:            
     print(rec)
